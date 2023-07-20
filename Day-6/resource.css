@@ -1,0 +1,28 @@
+.resource
+{
+   background-image: url('../Assert/b2.jpg');
+
+}
+.form-container {
+    max-width: 400px;
+    margin-left: 30%;
+    padding: 10%;
+    padding-right: 25%;
+    position: relative;
+    border: 1px solid white;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+  
+  button {
+    background-color:grey;
+    color: white;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+  
+  button:hover {
+    background-color:green;
+  }
+  
