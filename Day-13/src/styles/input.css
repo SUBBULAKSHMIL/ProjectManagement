@@ -1,0 +1,12 @@
+.input-container {
+    margin-top: 5px;
+  }
+  
+  .input-container input {
+    /* Add any desired styles for the input box */
+    width: 200px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 3px;
+  }
+  
