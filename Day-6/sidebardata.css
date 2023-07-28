@@ -1,0 +1,19 @@
+.sidebar {
+    /* Add your desired font family */
+    font-family: Arial, sans-serif;
+}
+
+.sidebar-item {
+    /* Add any other desired styles */
+    font-size: 16px;
+    font-weight: bold;
+    /* Add your desired font color */
+    color: #333;
+}
+
+.sidebar-icon {
+    /* Add any other desired styles */
+    font-size: 20px;
+    /* Add your desired font color */
+    color: #555;
+}

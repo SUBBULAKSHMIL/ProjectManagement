@@ -1,0 +1,29 @@
+.resform-groupcol-md-4{
+    border-color: black;
+    background-color: rgb(243, 208, 220);
+    box-shadow: 8px 8px rgb(213, 211, 211);
+    border-radius: 1%;
+    float: left;
+    width: 100%;
+    padding: 10px;
+    height: 300px;
+    margin-left: 4%;
+    margin-top: 0%;
+  }
+  .pro-container
+  {
+    display: flex;
+    flex-wrap: wrap; /* This will wrap the items to the next row when needed */
+    justify-content: space-between; 
+  }
+  .resrowmb-3:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .res-header{
+    height: 10vh;
+    width: 100%;
+    background-color: aqua;
+  }
+  

@@ -1,0 +1,17 @@
+.project
+{
+    box-sizing: border-box;
+}
+.prorow:after 
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+.procol
+{
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px;
+}
