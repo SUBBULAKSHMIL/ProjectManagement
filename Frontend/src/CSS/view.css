@@ -1,0 +1,21 @@
+.eprotable{
+    /* display: inline-block; */
+    background: #FFAFBD;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffc3a0, #FFAFBD);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffc3a0, #FFAFBD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+        margin: auto;
+    text-align: center;
+    margin-top: 10%;
+    color: black;
+    border: solid black 1px;
+    height: 35vh;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.eprotd{
+    border: solid black 1px
+}
+/* .eproth{
+border: solid whitesmoke 2px;
+} */

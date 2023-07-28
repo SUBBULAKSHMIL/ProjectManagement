@@ -3,13 +3,26 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Login from './Components/login1';
-import ValidatingForm from './Components/Login';
+
+import { configureStore } from '@reduxjs/toolkit';
+import { Provider } from 'react-redux';
+import userReducer from './Features/user';
+import { UserProvider } from './Features/UserContext';
+
+const store=configureStore({
+  reducer:{
+    user:userReducer
+  }
+})
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App/>
+    <Provider store={store}>
+      <UserProvider>
+      <App/>
+      </UserProvider>
+    </Provider>
   </React.StrictMode>
 );
 

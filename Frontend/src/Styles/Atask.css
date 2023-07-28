@@ -1,0 +1,34 @@
+.task-entire{
+    background-image: url('../Assert/b4.jpeg');
+    height:100vh;
+    overflow-y: auto;
+  }
+  .task-header{
+    /* background-color: aliceblue; */
+    height: 7vh;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+  }
+  .task-input{
+    background-color: rgb(177, 153, 185);
+    width: 40%;
+    margin-left: 28%;
+    padding-left: 5%;
+  }
+  .task-inputbox{
+    height: 4vh;
+    width: 30%;
+  }
+  .task-button{
+    height:5vh;
+    width:17%;
+    background-color: green;
+    border: green;
+  }
+  .task-th{
+    background-color: rgb(183, 182, 182);
+  }
+  .task-td{
+    background-color: rgb(219, 219, 220);
+  }
